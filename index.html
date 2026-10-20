@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Legends of the Game: The True Stories of Football's Greatest Players</title>
+<meta name="description" content="How did Ronaldo, Messi, Lamine Yamal and Pelé become stars? Read the full journey of each player, from childhood to the world stage.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:transparent;--card:rgba(14,20,36,.72);--ink:#EEF0F4;--mute:#9AA5BC;--line:rgba(255,255,255,.12);--dark:rgba(4,6,14,.78);--gold:#C9962B;--goldt:#E3B54E;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+html{background:radial-gradient(1200px 700px at 80% -10%,#1b1450 0,transparent 60%),radial-gradient(900px 600px at 0% 100%,#0b2c4a 0,transparent 55%),#04060e}
+#space{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+nav,.hero,main,footer{position:relative;z-index:1}
+.card,.story,.how div,details,.chip,#q{backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.hero{background:transparent!important}
+nav{position:sticky!important}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 Inter,system-ui,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3,.logo{font-family:"Playfair Display",Georgia,serif}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--dark);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+.logo{font-weight:800;font-size:22px;margin-right:auto}.logo b{color:#E3B54E}
+nav a{color:#AEB6C6;text-decoration:none;font-weight:500;font-size:14px}nav a:hover{color:#fff}
+@media(max-width:640px){nav a{display:none}}
+.btn{background:var(--gold);color:#101010;border:0;border-radius:6px;padding:12px 22px;font:600 15px Inter,sans-serif;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.sm{padding:8px 16px;font-size:14px}.btn.alt{background:none;border:1px solid rgba(255,255,255,.35);color:#fff}.btn.on{background:#15803D;color:#fff}
+:is(.btn,.card,.chip,summary,#code,#q):focus-visible{outline:3px solid #E3B54E;outline-offset:2px}
+.hero{background:radial-gradient(900px 400px at 85% 0,rgba(227,181,78,.18),transparent 60%),var(--dark);color:#fff;padding:76px 0 80px}
+.hero small{letter-spacing:.18em;text-transform:uppercase;color:#E3B54E;font-weight:600;font-size:13px}
+.hero h1{font-size:clamp(38px,7.5vw,68px);line-height:1.05;margin:12px 0 18px;max-width:16ch}
+.hero p{color:#AEB6C6;font-size:18px;max-width:50ch;margin:0 0 28px}
+.cta2{display:flex;gap:12px;flex-wrap:wrap}
+.facts{display:flex;gap:36px;flex-wrap:wrap;margin-top:42px;color:#AEB6C6;font-size:14px}
+.facts b{display:block;color:#fff;font:800 28px "Playfair Display",serif}
+.sec{padding:56px 0 6px}
+.sec h2{font-size:36px;line-height:1.15;margin:0 0 6px}.sec .lead{color:var(--mute);margin:0 0 22px}
+.tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+#q{flex:1;min-width:200px;padding:11px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:16px Inter,sans-serif}
+.chip{padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--mute);font:600 14px Inter,sans-serif;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--goldt);color:#101010;border-color:var(--goldt)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:0;text-align:left;cursor:pointer;color:inherit;font:inherit;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(0,0,0,.12)}
+.av{height:130px;display:grid;place-items:center;color:#fff;font:800 46px "Playfair Display",serif;letter-spacing:.02em}
+.cb{padding:14px 16px 18px}.cb b{display:block;font:700 20px "Playfair Display",serif}
+.cb span{color:var(--mute);font-size:14px}.cb p{margin:8px 0 0;font-size:14px;color:var(--mute);line-height:1.5}
+.story{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-top:26px}
+.sh{padding:30px;color:#fff;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.sh .av{width:96px;height:96px;border-radius:50%;font-size:34px;background:rgba(255,255,255,.16)}
+.sh h2{margin:0;font-size:36px}.sh p{margin:4px 0 0;opacity:.85}
+.sh button{margin-left:auto}
+.fs{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));border-bottom:1px solid var(--line)}
+.fs div{padding:16px 20px;border-right:1px solid var(--line)}.fs small{display:block;color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.08em}.fs b{font-size:17px}
+.chs{padding:8px 30px 30px}
+.ch{padding:20px 0 4px;border-bottom:1px solid var(--line)}.ch:last-child{border:0}
+.ch small{color:var(--goldt);font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:12px}
+.ch h3{margin:2px 0 8px;font-size:24px}.ch p{margin:0 0 16px;max-width:68ch}
+.lock{position:relative}.lock .blur{filter:blur(7px);user-select:none;pointer-events:none;opacity:.6}
+.pay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:12px}
+.pay b{font:700 22px "Playfair Display",serif}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.how div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.how b{display:block;font:700 20px "Playfair Display",serif;margin-bottom:4px}.how p{margin:0;color:var(--mute);font-size:15px}
+.how span{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:var(--dark);color:#E3B54E;font:700 15px Inter;margin-bottom:12px}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-bottom:10px}
+summary{cursor:pointer;padding:14px 18px;font-weight:600;list-style:none}summary::-webkit-details-marker{display:none}
+details p{margin:0;padding:0 18px 16px;color:var(--mute)}
+.sub{background:var(--dark);color:#fff;border-radius:16px;padding:38px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:36px}
+.sub h2{font-size:34px;margin:0 0 10px}.sub p{color:#AEB6C6;margin:0 0 14px}
+.sub ul{list-style:none;margin:0;padding:0}.sub li{padding:8px 0 8px 28px;position:relative;border-bottom:1px solid rgba(255,255,255,.1)}
+.sub li:before{content:"";position:absolute;left:5px;top:14px;width:6px;height:11px;border-right:2px solid #E3B54E;border-bottom:2px solid #E3B54E;transform:rotate(45deg)}
+.sub ol{margin:0 0 16px;padding-left:20px;color:#D5DBE6}.sub ol li{padding:4px 0;border:0}.sub ol li:before{display:none}
+.sub a{color:#E3B54E;font-weight:600}
+#code{width:100%;padding:12px;border-radius:6px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.06);color:#fff;font:500 16px Inter,sans-serif;margin:6px 0 8px;letter-spacing:.08em}
+#err{color:#FCA5A5;font-size:14px;min-height:20px;margin:0 0 8px}
+footer{margin-top:60px;background:var(--dark);color:#AEB6C6;padding:32px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}footer b{color:#fff;font:700 20px "Playfair Display",serif}footer a{color:#E3B54E}
+</style>
+</head>
+<body>
+<canvas id="space" aria-hidden="true"></canvas>
+<nav><div class="wrap"><div class="logo">Legends<b> of the Game</b></div><a href="#players">Players</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="#subscribe">Subscribe</a><button class="btn sm" id="planBtn">Subscribe</button></div></nav>
+<header class="hero"><div class="wrap">
+  <small>True stories</small>
+  <h1>How legends are made.</h1>
+  <p>From street pitches to the world stage. Read the journey of Ronaldo, Messi, Lamine Yamal and Pelé: the struggles, the turning points and the moments that changed everything.</p>
+  <div class="cta2"><a class="btn" href="#players">Read the stories</a><a class="btn alt" href="#subscribe">Unlock full stories</a></div>
+  <div class="facts"><div><b>4</b>Football icons</div><div><b>Free</b>First chapter of each</div><div><b>Full</b>Stories for subscribers</div></div>
+</div></header>
+<main class="wrap">
+  <section class="sec" id="players">
+    <h2>Choose a player</h2><p class="lead">Open a profile to read how he became a star.</p>
+    <div class="tools"><input id="q" type="search" placeholder="Search a player or country" aria-label="Search players">
+      <button class="chip" data-f="all" aria-pressed="true">All</button><button class="chip" data-f="Legend" aria-pressed="false">Legends</button><button class="chip" data-f="Rising star" aria-pressed="false">Rising stars</button></div>
+    <div class="grid" id="grid"></div>
+    <div id="story"></div>
+  </section>
+
+  <section class="sec" id="how">
+    <h2>How it works</h2><p class="lead">Three simple steps.</p>
+    <div class="how">
+      <div><span>1</span><b>Read the beginning</b><p>Every player's first chapter is free.</p></div>
+      <div><span>2</span><b>Subscribe</b><p>Send your payment or email us, and you will receive a secret code.</p></div>
+      <div><span>3</span><b>Unlock every story</b><p>Enter the code once. All chapters open on your device.</p></div>
+    </div>
+  </section>
+
+  <section class="sec" id="faq">
+    <h2>Questions</h2><p class="lead">Quick answers before you subscribe.</p>
+    <details><summary>What do I get for free?</summary><p>The profile, key facts and the first chapter of every player's story.</p></details>
+    <details><summary>What does a subscription add?</summary><p>The remaining chapters: the breakthrough, the peak and the legacy of each player.</p></details>
+    <details><summary>How do I get my code?</summary><p>Send your payment to the number below or email us. We reply with your secret code.</p></details>
+    <details><summary>How long does the code work?</summary><p>Once entered, your device stays unlocked until we change the code.</p></details>
+  </section>
+
+  <section class="sec" style="padding-top:56px"><div class="sub" id="subscribe">
+    <div><h2 id="subTitle">Read the full story behind the star</h2><p>Subscribers unlock every chapter of every player.</p>
+      <ul><li>Childhood and struggles</li><li>The big break</li><li>Trophies and records</li><li>The legacy</li></ul></div>
+    <div>
+      <div id="buy">
+        <ol><li>Send your payment to <b id="payNum"></b>, or email <a id="mailLink"></a> to subscribe</li><li>You will get a secret code.</li><li>Enter the code below.</li></ol>
+        <label for="code">Secret code</label>
+        <input id="code" autocomplete="off" autocapitalize="characters" spellcheck="false">
+        <p id="err" role="alert"></p>
+        <button class="btn" id="subBtn" style="width:100%">Unlock all stories</button>
+      </div>
+      <div id="have" style="display:none"><p>All stories are unlocked on this device.</p><button class="btn alt" id="lockBtn" style="width:100%">Lock again</button></div>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap"><div><b>Legends of the Game</b><br>Stories are written for fans and for information only.</div><div>Contact: <a id="mailLink2"></a></div></div></footer>
+
+<script>
+var P=[
+{id:"cr7",name:"Cristiano Ronaldo",ini:"CR",country:"Portugal",pos:"Forward",born:"1985, Funchal",type:"Legend",col:"#8B1E2D",tag:"From a modest home in Madeira to five Ballon d'Or awards.",
+facts:[["Born","5 Feb 1985"],["Birthplace","Funchal, Madeira"],["Ballon d'Or","5 awards"],["Clubs","Sporting, Man United, Real Madrid, Juventus, Al Nassr"]],
+ch:[["A boy from Madeira","Cristiano Ronaldo grew up on the island of Madeira in a modest family. His father worked as a kit man at a local club and his mother worked as a cook. He played football in the street every day and started at the small club Andorinha before moving to Nacional. His talent was obvious early, and so was his hunger to improve."],
+["Leaving home at twelve","At twelve, Sporting Lisbon signed him and he left his family to live in the club's academy. He was homesick and teased for his island accent, and he nearly quit. At fifteen doctors found a heart condition that made his heart race, and he had a surgery that allowed him to keep playing. He returned stronger than before."],
+["Manchester United and the world","In 2003 Sporting played Manchester United in a friendly and Ronaldo impressed so much that United's players urged the manager to sign him. He joined at eighteen, worked on his strength and finishing, and won the Premier League and the Champions League. In 2008 he won his first Ballon d'Or."],
+["Records and legacy","He moved to Real Madrid in 2009 and became the club's all-time top scorer, winning the Champions League several times. He later played for Juventus and returned to Manchester United before joining Al Nassr. With Portugal he won Euro 2016 and he is the highest scorer in men's international football. His story is famous for discipline: training harder than everyone else."]]},
+{id:"lm10",name:"Lionel Messi",ini:"LM",country:"Argentina",pos:"Forward",born:"1987, Rosario",type:"Legend",col:"#2B6CB0",tag:"The small boy from Rosario who became a world champion.",
+facts:[["Born","24 Jun 1987"],["Birthplace","Rosario, Argentina"],["Ballon d'Or","8 awards"],["Clubs","Barcelona, PSG, Inter Miami"]],
+ch:[["The boy from Rosario","Lionel Messi was born in Rosario, Argentina, and started playing for Newell's Old Boys as a young child. His grandmother encouraged his love of the game. He was smaller than the other boys, but his dribbling, balance and vision were unlike anything the coaches had seen."],
+["A growth problem and a new country","Around the age of ten Messi was diagnosed with a growth hormone deficiency. The treatment was expensive and his family struggled to pay. Barcelona offered to support the treatment and a contract, and at thirteen he moved to Spain with his family. He lived and trained at the club's academy, La Masia."],
+["The breakthrough","He made his Barcelona debut in 2004 and quickly became the heart of the team. Under coach Pep Guardiola the team won everything and Messi became the best player in the world. He won the Champions League with Barcelona four times and the first of his Ballon d'Or awards in 2009."],
+["The World Cup","For years the one missing prize was a major title with Argentina. He won the Copa America in 2021 and the World Cup in 2022 in Qatar, after a final that many call the greatest ever played. He has won the Ballon d'Or eight times, a record, and later joined Inter Miami."]]},
+{id:"ly19",name:"Lamine Yamal",ini:"LY",country:"Spain",pos:"Winger",born:"2007, Esplugues de Llobregat",type:"Rising star",col:"#A5282C",tag:"The teenage prodigy who won Euro 2024 before turning seventeen.",
+facts:[["Born","13 Jul 2007"],["Birthplace","Esplugues de Llobregat, Spain"],["Club","Barcelona"],["Honour","Euro 2024 winner"]],
+ch:[["A neighbourhood talent","Lamine Yamal grew up in Mataró, near Barcelona, in the Rocafonda neighbourhood, where he learned to play in the streets and on small pitches. Even as a young boy his close control and calm in tight spaces stood out. A well-known photo shows him as a baby alongside Lionel Messi at a charity event, a story fans love to tell."],
+["La Masia","He joined Barcelona's youth academy as a child and moved up the age groups years ahead of schedule. Coaches praised not only his skill but his maturity: he kept learning and listened to advice. In 2023 he was ready for the first team."],
+["Debut at fifteen","In April 2023 Yamal made his La Liga debut for Barcelona at fifteen, one of the youngest players in the league's history. The next season he became a regular starter and a key attacker, scoring and creating goals against the best defenders in Spain."],
+["Euro 2024","At the 2024 European Championship, Yamal was one of the youngest players ever at the tournament. He scored a famous goal in the semi-final against France, helped Spain win the title and was named the tournament's best young player. He also won the Kopa Trophy for the best young player in the world."]]},
+{id:"pele",name:"Pelé",ini:"PE",country:"Brazil",pos:"Forward",born:"1940, Três Corações",type:"Legend",col:"#1F7A3D",tag:"The shoe-shine boy who won three World Cups.",
+facts:[["Born","23 Oct 1940"],["Died","29 Dec 2022"],["World Cups","3 (1958, 1962, 1970)"],["Clubs","Santos, New York Cosmos"]],
+ch:[["A boy and a ball of socks","Edson Arantes do Nascimento, known as Pelé, was born in Três Corações, Brazil, into a poor family. His father was a footballer, and Pelé grew up playing with a ball made of rolled socks or paper because the family could not afford a real one. He is often said to have worked as a boy to help the family."],
+["Santos at fifteen","At fifteen a former Brazilian player took him to Santos, where he quickly joined the first team. He scored in his first games and became the club's leading scorer in his first full season. His speed, finishing and imagination amazed fans."],
+["World champion at seventeen","In 1958 Pelé went to the World Cup in Sweden as a teenager and became a star. He scored in the semi-final and twice in the final as Brazil won their first World Cup. He won again in 1962 and 1970 and is the only player to win three World Cups."],
+["The king of football","Pelé scored more than a thousand career goals according to his own count and made football a global sport. After Santos he played in the United States for the New York Cosmos. He remains one of the greatest and most loved players in history."]]}
+];
+/* ===== OWNER SETTINGS: edit these ===== */
+var PAY_NUMBER="60 17504 7568";
+var EMAIL="a16393832@gmail.com";
+var ONE_CODE="12378909"; // unlocks every story and stays unlocked on the device until you change this code.
+/* ===================================== */
+var pro=false,cur=null,filt="all",qs="";
+try{pro=localStorage.getItem("lg-unlocked")===ONE_CODE}catch(e){}
+var grid=document.getElementById("grid"),story=document.getElementById("story"),planBtn=document.getElementById("planBtn");
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function cards(){
+  var h="";P.forEach(function(p){
+    if(filt!=="all"&&p.type!==filt)return;
+    if(qs&&(p.name+" "+p.country).toLowerCase().indexOf(qs)<0)return;
+    h+='<button class="card" data-id="'+p.id+'"><div class="av" style="background:'+p.col+'">'+esc(p.ini)+'</div><div class="cb"><b>'+esc(p.name)+'</b><span>'+esc(p.country)+' · '+esc(p.pos)+'</span><p>'+esc(p.tag)+'</p></div></button>';
+  });
+  grid.innerHTML=h||'<p style="color:var(--mute)">No player found.</p>';
+}
+function chap(c,i,locked){
+  var t='<div class="ch"><small>Chapter '+(i+1)+'</small><h3>'+esc(c[0])+'</h3><p>'+esc(c[1])+'</p></div>';
+  return locked?'<div class="lock"><div class="blur">'+t+'</div><div class="pay"><b>Subscribers only</b></div></div>':t;
+}
+function showStory(){
+  if(!cur){story.innerHTML="";return}
+  var p=cur,h='<article class="story" id="sv"><div class="sh" style="background:'+p.col+'"><div class="av">'+esc(p.ini)+'</div><div><h2>'+esc(p.name)+'</h2><p>'+esc(p.country)+' · '+esc(p.pos)+' · '+esc(p.born)+'</p></div><button class="btn alt" data-close="1">Close</button></div>';
+  h+='<div class="fs">'+p.facts.map(function(f){return'<div><small>'+esc(f[0])+'</small><b>'+esc(f[1])+'</b></div>'}).join("")+'</div><div class="chs">';
+  p.ch.forEach(function(c,i){h+=chap(c,i,!pro&&i>0)});
+  if(!pro)h+='<div style="text-align:center;padding:18px 0 4px"><button class="btn" data-sub="1">Unlock the full story</button></div>';
+  story.innerHTML=h+'</div></article>';
+}
+function render(){
+  cards();showStory();
+  planBtn.textContent=pro?"Subscribed":"Subscribe";planBtn.className="btn sm"+(pro?" on":"");
+  document.getElementById("payNum").textContent=PAY_NUMBER;
+  ["mailLink","mailLink2"].forEach(function(id){var m=document.getElementById(id);m.textContent=EMAIL;m.href="mailto:"+EMAIL});
+  document.getElementById("buy").style.display=pro?"none":"block";
+  document.getElementById("have").style.display=pro?"block":"none";
+  document.getElementById("subTitle").textContent=pro?"You are subscribed":"Read the full story behind the star";
+}
+function goSub(){document.getElementById("subscribe").scrollIntoView({behavior:"smooth"})}
+grid.addEventListener("click",function(e){var c=e.target.closest(".card");if(!c)return;
+  cur=P.filter(function(p){return p.id===c.dataset.id})[0];showStory();document.getElementById("sv").scrollIntoView({behavior:"smooth"})});
+story.addEventListener("click",function(e){
+  if(e.target.closest("[data-sub]")){goSub();return}
+  if(e.target.closest("[data-close]")){cur=null;showStory();document.getElementById("players").scrollIntoView({behavior:"smooth"})}
+});
+document.getElementById("q").addEventListener("input",function(e){qs=e.target.value.trim().toLowerCase();cards()});
+document.querySelectorAll(".chip").forEach(function(b){b.addEventListener("click",function(){
+  filt=b.dataset.f;document.querySelectorAll(".chip").forEach(function(x){x.setAttribute("aria-pressed",x===b)});cards()})});
+planBtn.addEventListener("click",goSub);
+function unlock(){
+  var v=document.getElementById("code").value.trim().toUpperCase();
+  if(v===ONE_CODE.toUpperCase()){pro=true;try{localStorage.setItem("lg-unlocked",ONE_CODE)}catch(e){}
+    document.getElementById("code").value="";document.getElementById("err").textContent="";render();document.getElementById("players").scrollIntoView({behavior:"smooth"})}
+  else document.getElementById("err").textContent="That code is not valid. Check it and try again.";
+}
+document.getElementById("subBtn").addEventListener("click",unlock);
+document.getElementById("code").addEventListener("keydown",function(e){if(e.key==="Enter")unlock()});
+document.getElementById("lockBtn").addEventListener("click",function(){pro=false;try{localStorage.removeItem("lg-unlocked")}catch(e){}render()});
+render();
+
+/* ===== UNIVERSE BACKGROUND: moving stars, drifting planets and shooting stars ===== */
+(function(){
+  var c=document.getElementById("space"),x=c.getContext("2d"),W,H,stars=[],shoot=[],t=0,still=window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+  var planets=[{r:.07,x:.12,y:.30,c1:"#F6C66B",c2:"#8A4B12",s:.00005,ring:1},{r:.045,x:.88,y:.62,c1:"#6FB6FF",c2:"#123A78",s:.00007},{r:.025,x:.55,y:.84,c1:"#D98A8A",c2:"#5A1A2A",s:.00009}];
+  function size(){var d=Math.min(window.devicePixelRatio||1,2);W=innerWidth;H=innerHeight;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0);
+    var n=Math.round(W*H/5500);stars=[];for(var i=0;i<n;i++)stars.push({x:Math.random()*W,y:Math.random()*H,z:Math.random()*.9+.1,p:Math.random()*6.28})}
+  function frame(){
+    t++;x.clearRect(0,0,W,H);
+    planets.forEach(function(p,i){var m=Math.min(W,H),r=p.r*m*1.6,px=p.x*W+Math.sin(t*p.s*60+i)*18,py=p.y*H+Math.cos(t*p.s*50+i)*14;
+      var g=x.createRadialGradient(px-r*.35,py-r*.35,r*.1,px,py,r);g.addColorStop(0,p.c1);g.addColorStop(1,p.c2);
+      x.globalAlpha=.55;x.fillStyle=g;x.beginPath();x.arc(px,py,r,0,6.283);x.fill();
+      if(p.ring){x.globalAlpha=.35;x.strokeStyle=p.c1;x.lineWidth=3;x.beginPath();x.ellipse(px,py,r*1.8,r*.45,-.35,0,6.283);x.stroke()}});
+    x.fillStyle="#fff";
+    for(var i=0;i<stars.length;i++){var s=stars[i];
+      if(!still){s.y+=s.z*.35;s.x-=s.z*.12;if(s.y>H){s.y=0;s.x=Math.random()*W}if(s.x<0)s.x=W}
+      x.globalAlpha=(.35+.65*Math.abs(Math.sin(t*.02*s.z+s.p)))*s.z;x.fillRect(s.x,s.y,s.z*2,s.z*2)}
+    if(!still&&Math.random()<.012)shoot.push({x:Math.random()*W,y:Math.random()*H*.5,l:0,v:9+Math.random()*6});
+    shoot=shoot.filter(function(m){m.x+=m.v;m.y+=m.v*.5;m.l++;x.globalAlpha=Math.max(0,1-m.l/40);
+      x.strokeStyle="#fff";x.lineWidth=2;x.beginPath();x.moveTo(m.x,m.y);x.lineTo(m.x-m.v*5,m.y-m.v*2.5);x.stroke();return m.l<40});
+    x.globalAlpha=1;
+    if(!still)requestAnimationFrame(frame)
+  }
+  size();frame();
+  addEventListener("resize",function(){size();if(still)frame()});
+})();
+</script>
+</body>
+</html>
